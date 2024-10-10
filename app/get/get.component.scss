@@ -1,0 +1,19 @@
+.card{
+    position: absolute;
+    align-items: center;
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+.font{
+  font-size:20px;
+}
+.card-body{
+   background-color:skyblue;
+   width: 100%;
+}

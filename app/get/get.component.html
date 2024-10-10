@@ -1,0 +1,20 @@
+ <h2 style="text-align: center;">Weather Api!!!!!!!</h2>
+<div class="card" style="width: 20rem; height: 80vh;">
+    <img src="../assets/download.jpg" class="card-img-top">
+    <div class="centered">29 C</div>
+
+    <div class="card-body">
+      <h5 class="col">weather</h5>
+      <form [formGroup]="searchForm">
+      <input type="text" placeholder="enter location"  formControlName="searchField" > 
+      </form>
+      <a href="#" class="btn btn-primary" (click)="searchweather()">Search</a>
+   
+    <p class="font">Expected temperature:</p>
+    <p>day 32 C & night 20 C</p>
+    <p class="font">Humidity:30%</p>
+    <p class="font">Wins Speed: 3kmph</p>
+  </div>
+</div>
+
+  
